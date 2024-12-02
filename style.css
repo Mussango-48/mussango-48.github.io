@@ -1,0 +1,239 @@
+*{
+    padding: 5px;
+    margin: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+body{
+    background-color: rgb(163, 194, 212);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+nav{
+    text-align: center;
+}
+.nav-img{
+    width: 120px;
+    transition: transform 0.5s ease;
+}
+.nav-img:hover{
+    transform: scale(1.4);
+}
+.nav-h1-h2{
+    transition: transform 0.5s ease;
+}
+.nav-h1-h2:hover{
+    transform: scale(1.2);
+    
+}
+.nav-h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.nav-h2{
+    font-size: 30px;
+}
+.section-h1{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.section-h1:hover{
+    /* color: white; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    
+}
+.ul{
+    font-weight: 600;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.ul:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+.section-img{
+    display: flex;
+    align-items: center;
+    
+}
+.section-img .img{
+    transition: transform 0.5s ease;
+    width: 400px;
+    height: 280px;
+    margin-top: 30px;
+}
+.section-img .img:hover{
+    transform: scale(1.2);
+}
+.ambiente{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+.ambiente:hover{
+    /* color: white; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    
+}
+.ambiente-p-img{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ambiente-p{
+    font-size: 20px;
+    width: 30%;
+    text-align: justify;
+}
+.ambiente-img{
+    width: 500px;
+    /* height: 600px; */
+    transition: transform 0.5s ease;
+}
+.ambiente-img:hover{
+    transform: scale(1.2);
+}
+.not{
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+.not:hover{
+    /* color: white; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+.footer-p{
+   text-align: center;
+   align-items: center;
+   font-weight: 600;
+   font-size: 15px;
+   
+}
+.footer{ 
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    height: 50px;   
+}
+
+ 
+
+
+
+
+
+
+@media (max-width:890px){
+    nav{
+        text-align: center;
+    }
+    .nav-img{
+        width: 100px;
+        transition: transform 0.5s ease;
+    }
+    .nav-img:hover{
+        transform: scale(1.3);
+    }
+    .nav-h1-h2{
+        transition: transform 0.5s ease;
+    }
+    .nav-h1-h2:hover{
+        transform: scale(1.2);
+        color: white;
+    }
+    .nav-h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .nav-h2{
+        font-size: 20px;
+    }
+    .section-h1{
+        margin-top: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .section-h1:hover{
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px;
+        
+    }
+    .ul{
+        font-weight: 600;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 10px;
+        
+    }
+    .ul:hover{
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px;
+    }
+    .section-img{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .section-img .img{
+        transition: transform 0.5s ease;
+        width: 60%;
+        height: 300px;
+        margin-top: 30px;
+    }
+    .section-img .img:hover{
+        transform: scale(1.2);
+    }
+    .ambiente{
+        margin-top: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .ambiente:hover{
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px;
+        
+    }
+    .ambiente-p-img{
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .ambiente-p{
+        font-size: 20px;
+        width: 100%;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+    .ambiente-img{
+        width: 300px;
+        /* height: 600px; */
+        transition: transform 0.5s ease;
+    }
+    .ambiente-img:hover{
+        transform: scale(1.2);
+    }
+    
+}
